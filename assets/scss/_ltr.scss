@@ -1,0 +1,25 @@
+html[dir="ltr"] {
+  .service-sec .service-wrap .card .card-data {
+    margin-left: 35px;
+  }
+  footer .lg-shape {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    -webkit-transform: translate(-50%, -25.5%);
+    transform: translate(-50%, -25.5%);
+    z-index: -1;
+  }
+  .banner .sm-shape {
+    position: absolute;
+    right: 97%;
+    z-index: 999;
+    // top: 40%;
+  }
+  .service2-sec {
+    .bTitle {
+      opacity: 1;
+      bottom: -1%;
+    }
+  }
+}
